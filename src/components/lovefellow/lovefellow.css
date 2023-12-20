@@ -1,0 +1,167 @@
+/* LoveFellow.css */
+/* or specify a fixed height */
+/* or scroll, depending on your needs */
+/* .bg-white {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  overflow: hidden;
+} */
+/* body {
+    background-color: white;
+    color: black;
+  } */
+
+/* .container-1280px.join-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 140px;
+  padding-bottom: 30px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.image-container {
+  flex: 1 0 42%;
+  max-width: 530px;
+  position: relative;
+  overflow: hidden;
+} */
+
+/* Moved container styles for yellow and blue images
+/* .flex .image-container {
+  flex: 1 0 48%;
+  max-width: 580px; /* Increased max width for yellow and blue images */
+/* } */
+
+/* .image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.container-1280px h1 {
+  color: black;
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sub-heading {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+} */
+
+/* Styles for Pink Image */
+/* .image-container.pink {
+  position: relative;
+  z-index: 1;
+  background-color: lightpink;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  height: 400px;
+}
+
+.pink-overlay { */
+/* top: 0;
+    left: 0; */
+/* width: 100%;
+  height: 100%;
+  background: pink;
+  opacity: 0.5;
+} */
+
+/* .pink-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: black;
+}
+
+.pink-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+.image-container.yellow {
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  height: 400px;
+  background-color: lightyellow; 
+} */
+
+/* .overlay-yellow {
+  height: 100%;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.content-yellow {
+  position: absolute;
+  top: 5px; 
+  left: 20px;
+
+  color: black;
+} */
+
+/* .text-yellow {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 9px;
+}
+.yellow-inner {
+  margin-top: 75px;
+}
+
+.image-container.blue {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+
+  background-color: lightblue; 
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  height: 400px;
+  margin-top: 20px; 
+}
+
+.overlay-blue {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.content-blue {
+  position: absolute;
+  top: 5px; 
+  left: 20px;
+  color: black;
+}
+
+.text-blue {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 9px;
+}
+
+.blue-inner {
+  margin-top: 100px;
+}
+
+.blue1 {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+} */

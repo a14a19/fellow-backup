@@ -1,0 +1,67 @@
+/* Container styling */
+.class3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Left section styling */
+.left-section {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 254, 254, 0.1);
+}
+
+/* Right section styling */
+.right-section {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the FAQ title (h5 tag) */
+.faq-title {
+    font-size: 28px; /* Increased font size for h5 */
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Style for the paragraph (p tag) */
+.left-section p,
+.right-section p {
+    font-size: 18px; /* Font size for the paragraph text */
+    color: #fffdfd;
+    margin-bottom: 20px;
+}
+
+.class1 Disclosure.Button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ffffff; /* Set background color to white */
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.class1 Disclosure.Button:hover {
+    background-color: #f5f5f5; /* You can adjust the hover color if needed */
+}
+
+/* Styling for the FAQ answer panels */
+.class1 Disclosure.Panel {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-left: 3px solid #ffffff;
+    background-color: #f5f5f5;
+    color: #ffffff;
+}
+
+
