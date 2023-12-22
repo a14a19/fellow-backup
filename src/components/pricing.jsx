@@ -2,6 +2,14 @@ import React from "react";
 import { CheckCircleIcon, XCircleIcon } from "@heroicons/react/24/solid";
 import First from "../assets/images/Google-.png";
 import Second from "../assets/images/project.png"
+import third from "../assets/images/image-read.png";
+import fourth from "../assets/images/rating.png";
+import fifth from "../assets/images/software.png";
+import sixth from "../assets/images/rating.png";
+import seven from "../assets/images/Concept-2.png";
+import eith from "../assets/images/digital-product.png";
+import nine from "../assets/images/rating.png";
+
 // ../src/assets/images/project.png
 // ../src/assets/images/Google-.png
 const Pricing = () => {
@@ -152,15 +160,15 @@ const Pricing = () => {
         </div>
         <div className="flex flex-col sm:flex-row gap-16 py-15">
           <div className="flex-1 shadow-lg">
-            <img src="../src/assets/images/image-read.png" alt="hrh" />
+            <img src={third} alt="hrh" />
             <div className="gap-9 mx-5">
               <div className="flex flex-row">
                 <span>
-                  <img 
+                  <img
                     className="h-8 w-8 my-4"
                     src={First}
                     alt=""
-                 />
+                  />
                 </span>
                 <span className=" py-6 font-semibold text-xm mx-4 design">
                   Google
@@ -176,7 +184,7 @@ const Pricing = () => {
               </span>
               <div className="flex flex-row gap-4 w-100 py-3">
                 <div className="text-black text-xs">4.3</div>
-                <img src="../src/assets/images/rating.png" alt="hrh" />
+                <img src={fourth} alt="hrh" />
                 <div className="text-black text-xs">(99K reviwes)</div>
               </div>
               <div className="text-1 py-4">
@@ -191,7 +199,7 @@ const Pricing = () => {
                 <span>
                   <img
                     className="h-8 w-8 my-4"
-                    src="../src/assets/images/software.png"
+                    src={fifth}
                     alt=""
                   />
                 </span>
@@ -209,7 +217,7 @@ const Pricing = () => {
               </span>
               <div className="flex flex-row gap-4 w-100 py-3">
                 <div className="text-black text-xs">4.7</div>
-                <img src="../src/assets/images/rating.png" alt="hrh" />
+                <img src={sixth} alt="hrh" />
                 <div className="text-black text-xs">(11K reviews)</div>
               </div>
               <div className="text-1 py-4">
@@ -218,13 +226,13 @@ const Pricing = () => {
             </div>
           </div>
           <div className="flex-1 shadow-lg">
-            <img src="../src/assets/images/Concept-2.png" alt="hrh" />
+            <img src={seven} alt="hrh" />
             <div className="gap-9 mx-5">
               <div className="flex flex-row">
                 <span>
                   <img
                     className="h-8 w-8 my-4"
-                    src="../src/assets/images/digital-product.png"
+                    src={eith}
                     alt=""
                   />
                 </span>
@@ -242,7 +250,7 @@ const Pricing = () => {
               </span>
               <div className="flex flex-row gap-4 w-100 py-3">
                 <div className="text-black text-xs">4.7</div>
-                <img src="../src/assets/images/rating.png" alt="hrh" />
+                <img src={nine} alt="hrh" />
                 <div className="text-black text-xs">(9.1K reviews)</div>
               </div>
               <div className="text-1 py-4">
