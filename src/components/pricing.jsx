@@ -1,6 +1,9 @@
 import React from "react";
 import { CheckCircleIcon, XCircleIcon } from "@heroicons/react/24/solid";
-
+import First from "../assets/images/Google-.png";
+import Second from "../assets/images/project.png"
+// ../src/assets/images/project.png
+// ../src/assets/images/Google-.png
 const Pricing = () => {
   return (
     <div>
@@ -20,8 +23,8 @@ const Pricing = () => {
         <h1 className="bg-white py-24 text-4xl font-semibold text-center text-black">
           Program fees{" "}
         </h1>
-        <div className=" flex flex-col sm:flex-row gap-16 sm:px-24 px-8 py-15 bg-white">
-          <div className="p-8 rounded-2xl border-2 border-white  bg-black">
+        <div className=" flex flex-col justify-around items-center sm:flex-row gap-24 sm:px-24 px-8 py-15 bg-white">
+          <div className="p-8 rounded-2xl md:w-[30%] border-2 border-white  bg-black">
             <div className="text-2xl font-semibold">Placement 101</div>
             <div className="py-2 text-4xl font-semibold mt-4 mb-8 package-price">
               $99
@@ -55,7 +58,7 @@ const Pricing = () => {
               Job Guarantee or Refund
             </div>
           </div>
-          <div className="p-8 rounded-2xl border-d border-blue-500 bg-black">
+          <div className="p-8 rounded-2xl  md:w-[30%] border-d border-blue-500 bg-black">
             <div className="text-2xl font-semibold">Pay after placement</div>
             <div className="py-2 text-4xl font-semibold mt-4 mb-8 package-price">
               $999
@@ -89,16 +92,16 @@ const Pricing = () => {
               Job Guarantee or Refund
             </div>
             <div className="py-2 font-semibold">
-              <p>
+              {/* <p>
                 A small{" "}
                 <span className="text-green-500 font-semibold">
                   pre - deposit of $ 200{" "}
                 </span>
                 required for accountability*
-              </p>
+              </p> */}
             </div>
           </div>
-          <div className="p-8 rounded-2xl border-2 border-white bg-black">
+          <div className="p-8 rounded-2xl md:w-[30%] border-2 border-white bg-black">
             <div className="text-2xl font-semibold">Elite Pack</div>
             <div className="py-2 text-4xl font-semibold mt-4 mb-8 package-price">
               $2999{" "}
@@ -153,11 +156,11 @@ const Pricing = () => {
             <div className="gap-9 mx-5">
               <div className="flex flex-row">
                 <span>
-                  <img
+                  <img 
                     className="h-8 w-8 my-4"
-                    src="../src/assets/images/Google-.png"
+                    src={First}
                     alt=""
-                  />
+                 />
                 </span>
                 <span className=" py-6 font-semibold text-xm mx-4 design">
                   Google
@@ -182,7 +185,7 @@ const Pricing = () => {
             </div>
           </div>
           <div className="flex-1 shadow-lg">
-            <img src="../src/assets/images/project.png" alt="hrh" />
+            <img src={Second} alt="hrh" />
             <div className="gap-9 mx-5">
               <div className="flex flex-row">
                 <span>

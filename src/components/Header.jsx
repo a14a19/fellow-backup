@@ -21,7 +21,7 @@ function Header() {
                             <Link><div className="text-black transition ease delay-50 hover:text-[#5a5a5a]">Why Us?</div></Link>
                             <Link><div className="text-black transition ease delay-50 hover:text-[#5a5a5a]">Contact</div></Link>
                             <Link><div className="text-black transition ease delay-50 hover:text-[#5a5a5a]">Pricing</div></Link>
-                            <div className="button bg-black transition ease delay-100 hover:bg-[#5a5a5a] rounded-lg  w-max   px-2 flex justify-center items-center">
+                            <div className="button bg-black transition ease delay-100 hover:bg-[#5a5a5a] rounded-lg  w-max h-12  px-2 flex justify-center items-center">
                                 <button className="text-white text-base">Get Started</button>
                             </div>
                         </Popover.Group>

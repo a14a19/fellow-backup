@@ -1,3 +1,4 @@
+import CardCoffee from "./components/Cards/Card"
 import EngagingLearning from "./components/EngagingLearning"
 import Faq from "./components/Faq/Faq"
 import Footer from "./components/Footer"
@@ -6,6 +7,7 @@ import HeroSection from "./components/HeroSection"
 import LoveFellow from "./components/lovefellow/loveFellow"
 import Pricing from "./components/pricing"
 
+
 function App() {
 
   return (
@@ -13,6 +15,7 @@ function App() {
       <Header />
       <HeroSection />
       <EngagingLearning />
+      <CardCoffee />
       <Pricing />
       <LoveFellow />
       <Faq />
